@@ -1,0 +1,6 @@
+polygon_api_key: "OTWD0zA61n_hom9mVHwNC9xBrhxC9Qgx"
+ticker: "SPY"
+training_days: 1000
+prediction_horizon: 30
+num_paths: 5000
+device: "mps"          # this uses your MacBook’s GPU
