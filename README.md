@@ -11,12 +11,11 @@ This is bleeding-edge retail quant tech:
 ### Results (November 17, 2025)
 ![5,000 simulated 30-day SPY paths](spy_future_paths.png)
 
-### Project structure
 diffusion-options-edge/
 ├── config.yaml               # ← your API key (gitignored)
 ├── src/
-│   ├── train_diffusion.py    # trains the model (~5 min on MacBook)
-│   ├── generate_paths.py     # generates beautiful path plots
+│   ├── train_diffusion.py    # trains the model (~5 min)
+│   ├── generate_paths.py     # creates the beautiful plots
 │   └── find_edge.py          # finds mispriced SPX options (run during market hours)
 ├── models/spy_diffusion.pth  # trained model
 └── data/                     # normalization stats
